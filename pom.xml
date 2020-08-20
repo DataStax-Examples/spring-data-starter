@@ -7,8 +7,8 @@
 	<groupId>com.datastax.examples</groupId>
 	<artifactId>spring-data-example</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>spring-data-example</name>
-	<description>Demo project for using Spring Data with DataStax Astra</description>
+	<name>Spring Boot &amp; Spring Data Example</name>
+	<description>Demo project for using Spring Boot, Spring Data Cassandra with DataStax Astra</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
