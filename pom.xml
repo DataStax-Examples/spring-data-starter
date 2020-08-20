@@ -32,7 +32,7 @@
 
 	<dependencies>
 	
-		<!-- Spring-data -->
+		<!-- Spring Boot + Spring Data Cassandra -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-cassandra</artifactId>
@@ -53,18 +53,10 @@
 			<artifactId>java-driver-core</artifactId>
 			<version>${cassandra-java-driver.version}</version>
 			<!-- exclude Tinkerpop dependencies to remove groovy warning on Java 11 -->
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.tinkerpop</groupId>
-                    <artifactId>gremlin-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.tinkerpop</groupId>
-                    <artifactId>tinkergraph-gremlin</artifactId>
-                </exclusion>
+			<exclusions>
 				<exclusion>
 					<groupId>org.apache.tinkerpop</groupId>
-					<artifactId>gremlin-driver</artifactId>
+					<artifactId>*</artifactId>
 				</exclusion>
             </exclusions>
 		</dependency>
