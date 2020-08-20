@@ -25,7 +25,7 @@ Running in Gitpod
 6. Once you have copied your credentials, click to Open in Gitpod. 
    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/spring-data-starter)
    
-7. Once your gitpod workspace has loaded past your service account credentials and enter in the bottom of the screen 
+7. Once your gitpod workspace has loaded paste your service account credentials and enter in the bottom of the screen 
    ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90801910-5e816c00-e2cb-11ea-874b-fb64ee7a26ae.png)
 
 8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
