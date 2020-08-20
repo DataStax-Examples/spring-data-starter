@@ -1,0 +1,16 @@
+spring.application.name: spring-data-service
+
+server.port: 8081
+
+management.server.port: 8082
+
+spring.data.rest.basePath: /
+
+spring.data.cassandra:
+  keyspace-name: spring_data_starter
+  # Increase timeouts when connecting to Astra from a dev workstation
+  request:
+    timeout: 10s
+  connection:
+    connect-timeout: 10s
+    init-query-timeout: 10s
