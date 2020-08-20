@@ -10,6 +10,8 @@ Create a database in [DataStax Astra](https://astra.datastax.com/) with the keys
 
 ## Running
 
+Export the following environment variables:
+
 ```
 export ASTRA_DB_BUNDLE=<path-to-secure-connect-bundle>
 export ASTRA_DB_USERNAME=<astra-username>
@@ -17,14 +19,11 @@ export ASTRA_DB_PASSWORD=<astra-password>
 export ASTRA_DB_KEYSPACE=<astra-keyspace>
 ```
 
-```
-mvn package
-```
+The run the Spring Boot application:
 
 ```
-java -jar target/spring-data-example-1.0.0-SNAPSHOT.jar
+mvn spring-boot:run
 ```
-
 
 ## API
 
