@@ -1,5 +1,5 @@
-echo "🚀 Go to https://astra.datastax.com/organizations?create_service_account
-Generate a service account by clicking the elipsis. Then, click the copy icon and paste your service account credentials here: "
+echo "🚀 Go to https://astra.datastax.com/org/?create_service_account
+Generate a service account using the actions menu. Then, click the copy icon and paste your service account credentials here: "
   read -r SERVICE_ACCOUNT
   export SERVICE_ACCOUNT="${SERVICE_ACCOUNT}"
 
