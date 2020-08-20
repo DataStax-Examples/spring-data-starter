@@ -32,4 +32,4 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
 
 9. You're ready to use this application! 
-   ![Swagger](https://github.com/DataStax-Examples/spring-data-starter/blob/master/doc/pics/spring-data-swagger-ui.png?raw=true)
+   ![Swagger](doc/pics/spring-data-swagger-ui.png?raw=true)
