@@ -19,4 +19,3 @@ public class SpringDataCassandraApplication {
         return builder -> builder.withCloudSecureConnectBundle(astraProperties.getSecureConnectBundle());
     }
 }
-
