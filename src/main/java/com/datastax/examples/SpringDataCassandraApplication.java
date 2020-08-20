@@ -17,7 +17,7 @@ public class SpringDataCassandraApplication {
 
     @Bean
     public CqlSessionBuilderCustomizer sessionBuilderCustomizer(DataStaxAstraProperties astraProperties) {
-        return builder -> builder.withCloudSecureConnectBundle(Paths.get(astraProperties.getSecureConnectBundle()));
+        return builder -> builder.withCloudSecureConnectBundle(astraProperties.getSecureConnectBundle());
     }
 }
 
