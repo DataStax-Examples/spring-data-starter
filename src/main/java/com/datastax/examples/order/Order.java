@@ -1,10 +1,12 @@
 package com.datastax.examples.order;
 
-import lombok.Data;
-import org.springframework.data.cassandra.core.mapping.*;
-
 import java.io.Serializable;
 import java.time.Instant;
+import lombok.Data;
+import org.springframework.data.cassandra.core.mapping.CassandraType;
+import org.springframework.data.cassandra.core.mapping.Column;
+import org.springframework.data.cassandra.core.mapping.PrimaryKey;
+import org.springframework.data.cassandra.core.mapping.Table;
 
 @Table(value = "orders")
 @Data

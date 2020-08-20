@@ -2,54 +2,66 @@ package com.datastax.examples.order;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.BasePathAwareController;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 import java.util.UUID;
 
-@BasePathAwareController
+@RestController
 public class OrderController {
 
     @Autowired
     private OrderRepository orderRepository;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public ModelAndView method() {
-        return new ModelAndView("redirect:" + "/swagger-ui/");
+    public ModelAndView root() {
+        return new ModelAndView("redirect:/swagger-ui/");
     }
 
-    @GetMapping("orders/{id}")
-    public ResponseEntity<List<Order>> getOrder(@PathVariable("oid") UUID oid) {
-        return ResponseEntity.ok(orderRepository.findByKeyOrderId(oid));
+    // CREATE
+
+    @PostMapping("orders")
+    public Order createOrder(@RequestBody Order order) {
+        return orderRepository.save(order);
     }
 
-    @GetMapping("orders/{oid}/{pid}")
-    public ResponseEntity<Order> getProductInOrder(@PathVariable("oid") UUID oid, @PathVariable("id") UUID pid) {
-        return ResponseEntity.ok(orderRepository.findByKeyOrderIdAndKeyProductId(oid, pid));
+    // UPDATE
+
+    @PutMapping("orders/{oid}/{pid}")
+    public Order updateOrder(@PathVariable("oid") UUID oid, @PathVariable("pid") UUID pid, @RequestBody Order order) {
+        order.getKey().setOrderId(oid);
+        order.getKey().setProductId(pid);
+        return orderRepository.save(order);
     }
 
-    @DeleteMapping("orders/{id}")
-    public ResponseEntity deleteOrder(@PathVariable("oid") UUID oid) {
-        orderRepository.deleteByKeyOrderId(oid);
-        return ResponseEntity.noContent().build();
-    }
+    // DELETE
 
     @DeleteMapping("orders/{oid}/{pid}")
-    public ResponseEntity deleteProductFromOrder(@PathVariable("oid") UUID oid, @PathVariable("id") UUID pid) {
+    public void deleteOrder(@PathVariable("oid") UUID oid, @PathVariable("pid") UUID pid) {
         orderRepository.deleteByKeyOrderIdAndKeyProductId(oid, pid);
-        return ResponseEntity.noContent().build();
     }
 
-    @PutMapping("orders/{id}")
-    public ResponseEntity<Order> updateOrder(@PathVariable("id") UUID oid, @RequestBody Order order) {
-        order.getKey().setOrderId(oid);
-        return ResponseEntity.ok(orderRepository.save(order));
+    @DeleteMapping("orders/{oid}")
+    public void deleteOrders(@PathVariable("oid") UUID oid) {
+        orderRepository.deleteByKeyOrderId(oid);
     }
 
-    @PatchMapping("orders/{id}")
-    public ResponseEntity patchOrder(@PathVariable("id") UUID oid, @RequestBody Order order) {
-        return ResponseEntity.notFound().build();
+    // FIND
+
+    @GetMapping("orders/{oid}/{pid}")
+    public ProductNameAndPrice findOrder(@PathVariable("oid") UUID oid, @PathVariable("pid") UUID pid) {
+        return orderRepository.findByKeyOrderIdAndKeyProductId(oid, pid);
     }
+
+    @GetMapping("orders/{oid}")
+    public List<ProductNameAndPrice> findOrders(@PathVariable("oid") UUID oid) {
+        return orderRepository.findByKeyOrderId(oid);
+    }
+
+    @GetMapping("orders")
+    public List<ProductNameAndPrice> findAll() {
+        return orderRepository.findAllProjectedBy();
+    }
+
 }
