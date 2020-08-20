@@ -58,7 +58,7 @@
 					<groupId>org.apache.tinkerpop</groupId>
 					<artifactId>*</artifactId>
 				</exclusion>
-            </exclusions>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.datastax.oss</groupId>
