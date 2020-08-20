@@ -1,6 +1,5 @@
 package com.datastax.examples;
 
-import java.nio.file.Paths;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.cassandra.CqlSessionBuilderCustomizer;
@@ -17,7 +16,7 @@ public class SpringDataCassandraApplication {
 
     @Bean
     public CqlSessionBuilderCustomizer sessionBuilderCustomizer(DataStaxAstraProperties astraProperties) {
-        return builder -> builder.withCloudSecureConnectBundle(Paths.get(astraProperties.getSecureConnectBundle()));
+        return builder -> builder.withCloudSecureConnectBundle(astraProperties.getSecureConnectBundle());
     }
 }
 

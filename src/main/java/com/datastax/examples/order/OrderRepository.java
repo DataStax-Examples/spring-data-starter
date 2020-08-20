@@ -1,33 +1,28 @@
 package com.datastax.examples.order;
 
 import org.springframework.data.cassandra.repository.CassandraRepository;
-import org.springframework.data.cassandra.repository.Query;
-import org.springframework.data.repository.query.Param;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-
 import org.springframework.data.rest.core.annotation.RestResource;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.UUID;
 
-@RepositoryRestResource(collectionResourceRel = "orders", path = "orders")
+@Repository
+@RestResource(exported = false)
 public interface OrderRepository extends CassandraRepository<Order, OrderPrimaryKey> {
 
-    @RestResource(exported = false)
-    void deleteByKeyOrderId(UUID orderId);
+  // DELETE
 
-    @RestResource(exported = false)
-    void deleteByKeyOrderIdAndKeyProductId(UUID orderId, UUID productId);
+  void deleteByKeyOrderId(UUID orderId);
 
-    @RestResource(path="name-and-price-only")
-    @Query("SELECT product_name, product_price FROM orders WHERE order_id = :orderId")
-    List<Order> findProductNamesAndPricesFromOrder(@Param("orderId") UUID orderId);
+  void deleteByKeyOrderIdAndKeyProductId(UUID orderId, UUID productId);
 
-    @RestResource(exported = false)
-    List<Order> findByKeyOrderId(UUID orderId);
+  // FIND (all projected)
 
-    @RestResource(exported = false)
-    Order findByKeyOrderIdAndKeyProductId(UUID orderId, UUID productId);
+  ProductNameAndPrice findByKeyOrderIdAndKeyProductId(UUID orderId, UUID productId);
 
+  List<ProductNameAndPrice> findByKeyOrderId(UUID orderId);
+
+  List<ProductNameAndPrice> findAllProjectedBy();
 }
 

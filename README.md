@@ -2,7 +2,7 @@
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/spring-data-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
 ## Running in Gitpod
 
@@ -24,7 +24,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 6. Once you have copied your credentials, click to Open in Gitpod:
 
-   [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/spring-data-starter)
+   [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
    
 7. Once your gitpod workspace has loaded paste your service account credentials and enter in the bottom of the screen 
    ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90801910-5e816c00-e2cb-11ea-874b-fb64ee7a26ae.png)
@@ -32,4 +32,4 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
 
 9. You're ready to use this application! 
-   ![Swagger](https://github.com/DataStax-Examples/spring-data-starter/blob/master/doc/pics/spring-data-swagger-ui.png?raw=true)
+   ![Swagger](doc/pics/spring-data-swagger-ui.png?raw=true)
