@@ -7,7 +7,6 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 
 import java.io.Serializable;
 import java.util.UUID;
-import org.springframework.lang.NonNull;
 
 @PrimaryKeyClass
 @Data
