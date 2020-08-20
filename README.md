@@ -12,8 +12,7 @@ Running in Gitpod
 2. Once your database is created, click on manage organizations at the top: 
    ![Screen Shot 2020-08-20 at 9 24 13 AM](https://user-images.githubusercontent.com/69874632/90799837-a5ba2d80-e2c8-11ea-8104-35ef6c0723ef.png)
   
-  
-3. Go to actions and click manage organizations on the side: 
+3. Go to actions, then click manage organizations on the side: 
    ![Screen Shot 2020-08-20 at 9 25 03 AM](https://user-images.githubusercontent.com/69874632/90799981-da2de980-e2c8-11ea-98ff-0089fe467d4d.png)
    
 4. Go to the top and click add service account: 
@@ -22,10 +21,11 @@ Running in Gitpod
 5. Then click the logo to copy your credentials. 
    ![Screen Shot 2020-08-20 at 9 25 50 AM](https://user-images.githubusercontent.com/69874632/90800145-1b25fe00-e2c9-11ea-9ae1-534e5a085008.png)
 
-6. Once you have copied your credentials, click to Open in Gitpod. 
+6. Once you have copied your credentials, click to Open in Gitpod:
+
    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/spring-data-starter)
    
-7. Once your gitpod workspace has loaded past your service account credentials and enter in the bottom of the screen 
+7. Once your Gitpod workspace has loaded, paste your service account credentials at the bottom of the screen
    ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90800275-51637d80-e2c9-11ea-89b8-858e7c4d80b9.png)
    
 8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
