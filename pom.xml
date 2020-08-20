@@ -20,19 +20,12 @@
 
 		<!-- Core -->
 		<java.version>11</java.version>
-		<maven-plugin-compiler.version>3.8.1</maven-plugin-compiler.version>
-		<maven-plugin-dockerfile.version>1.4.13</maven-plugin-dockerfile.version>
-
-		<!-- Spring -->
-		<spring-data.version>3.0.2.RELEASE</spring-data.version>
-		<spring-data-rest.version>3.3.0.RELEASE</spring-data-rest.version>
 
 		<!-- Cassandra driver -->
 		<cassandra-java-driver.version>4.8.0</cassandra-java-driver.version>
 		<cassandra-native-protocol.version>1.4.11</cassandra-native-protocol.version>
 
 		<!-- Third Parties -->
-		<logback.version>1.2.3</logback.version>
 		<springfox.version>3.0.0</springfox.version>
 
 	</properties>
