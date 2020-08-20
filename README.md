@@ -14,6 +14,7 @@ Create a database in [DataStax Astra](https://astra.datastax.com/) with the keys
 export ASTRA_DB_BUNDLE=<path-to-secure-connect-bundle>
 export ASTRA_DB_USERNAME=<astra-username>
 export ASTRA_DB_PASSWORD=<astra-password>
+export ASTRA_DB_KEYSPACE=<astra-keyspace>
 ```
 
 ```

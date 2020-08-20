@@ -7,10 +7,17 @@ management.server.port: 8082
 spring.data.rest.basePath: /
 
 spring.data.cassandra:
-  keyspace-name: spring_data_starter
+  keyspace-name: ${ASTRA_DB_KEYSPACE}
+  username: ${ASTRA_DB_USERNAME}
+  password: ${ASTRA_DB_PASSWORD}
+  # Create the schema on the fly if it doesn't exist
+  schema-action: CREATE_IF_NOT_EXISTS
   # Increase timeouts when connecting to Astra from a dev workstation
   request:
     timeout: 10s
   connection:
     connect-timeout: 10s
     init-query-timeout: 10s
+
+datastax.astra:
+  secure-connect-bundle: ${ASTRA_DB_BUNDLE}

@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS orders (order_id uuid, product_id uuid, product_name text, product_quantity int, product_price decimal, added_to_order_at timestamp, PRIMARY KEY ((order_id), product_id));
