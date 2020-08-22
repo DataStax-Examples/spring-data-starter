@@ -1,6 +1,6 @@
 package com.datastax.examples;
 
-import java.nio.file.Path;
+import java.io.File;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -10,5 +10,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Setter
 public class DataStaxAstraProperties {
 
-    private Path secureConnectBundle;
+    private File secureConnectBundle;
 }

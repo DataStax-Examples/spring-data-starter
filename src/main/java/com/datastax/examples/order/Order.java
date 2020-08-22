@@ -6,7 +6,7 @@ import org.springframework.data.cassandra.core.mapping.*;
 import java.io.Serializable;
 import java.time.Instant;
 
-@Table(value = "orders")
+@Table(value = "starter_orders")
 @Data
 public class Order implements Serializable {
 

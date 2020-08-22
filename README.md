@@ -4,32 +4,37 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
-## Running in Gitpod
+## Getting Started Paths:
+1. [Run the app on Gitpod](#running-on-gitpod)
 
-1. Create a [DataStax Astra](https://astra.datastax.com/) account and free-tier Cassandra Database: 
-   ![88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6](https://user-images.githubusercontent.com/69874632/90799424-0f860780-e2c8-11ea-962e-ad43ebafc085.png)
+### Running on Gitpod
+
+1. Create a [DataStax Astra](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) account and free-tier Cassandra Database: 
+![image](https://user-images.githubusercontent.com/3254549/90944037-75aa8180-e3d1-11ea-9b17-91929d55bc07.png)
+
    
-2. Once your database is created, click on manage organizations at the top navigation: 
-   ![Screen Shot 2020-08-20 at 9 24 13 AM](https://user-images.githubusercontent.com/69874632/90799837-a5ba2d80-e2c8-11ea-8104-35ef6c0723ef.png)
+2. Once your Astra database is created, click 'Your Databases', then 'Manage Organizations' on the top navigation: 
+![image](https://user-images.githubusercontent.com/3254549/90944069-9f63a880-e3d1-11ea-834a-968ffe69e37b.png)
   
   
-3. Go to actions, and click manage organizations on the right side of the screen: 
-   ![Screen Shot 2020-08-20 at 9 25 03 AM](https://user-images.githubusercontent.com/69874632/90801603-faf73e80-e2ca-11ea-8bab-dc82baf0c4ae.png)
+3. On the right side of your organization, click the elipsis (...) then 'Manage Organizations': 
+![image](https://user-images.githubusercontent.com/3254549/90944096-c02bfe00-e3d1-11ea-9513-b3362cdfd77a.png)
+
+4. Click the action menu, then select 'Add Service Account':
+![image](https://user-images.githubusercontent.com/3254549/90944155-05503000-e3d2-11ea-9d2a-8c376b027358.png)
+
+5. Click the copy icon to copy your Astra service account credentials to your clipboard:
+![image](https://user-images.githubusercontent.com/3254549/90944221-3c264600-e3d2-11ea-9d04-46915f1c3731.png)
+
+6. Once you have copied your credentials to your clipboard, click the 'Open in Gitpod' button below:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
    
-4. Go to the top and click add service account: 
-   ![Screen Shot 2020-08-20 at 9 25 29 AM](https://user-images.githubusercontent.com/69874632/90801716-1cf0c100-e2cb-11ea-938b-85709cad8ce0.png)
+7. Once your Gitpod workspace has loaded, you'll be asked to paste your service account credentials in the Gitpod terminal at the bottom of the screen:
+![image](https://user-images.githubusercontent.com/3254549/90944321-e900c300-e3d2-11ea-9624-dae5f81b6a0a.png)
 
-5. Then click the logo to copy your credentials. 
-   ![Screen Shot 2020-08-20 at 9 25 50 AM](https://user-images.githubusercontent.com/69874632/90801796-3560db80-e2cb-11ea-8c1d-4387ca9809a4.png)
+8. When the app is finished building, click the 'Open Browser' button on the bottom right of the screen:
+![image](https://user-images.githubusercontent.com/3254549/90944371-249b8d00-e3d3-11ea-8305-b7d4fad9742c.png)
 
-6. Once you have copied your credentials, click to Open in Gitpod:
-
-   [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
-   
-7. Once your gitpod workspace has loaded paste your service account credentials and enter in the bottom of the screen 
-   ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90801910-5e816c00-e2cb-11ea-874b-fb64ee7a26ae.png)
-
-8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
-
-9. You're ready to use this application! 
-   ![Swagger](doc/pics/spring-data-swagger-ui.png?raw=true)
+9. You're successfully build a Spring Boot Astra application!
+![image](https://user-images.githubusercontent.com/3254549/90944387-439a1f00-e3d3-11ea-9df4-e8a5580c62cd.png)
