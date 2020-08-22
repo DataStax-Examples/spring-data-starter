@@ -3,5 +3,15 @@
   "description": "A sample Spring Data Cassandra REST APIx",
   "repository": "https://github.com/DataStax-Examples/spring-data-starte",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["spring", "cassandra", "astra"]
+  "keywords": ["spring", "cassandra", "astra"],
+  "env": {
+    "ASTRA_DB_PASSWORD": {
+      "description": "Your Astra Database Password",
+      "value": "REPLACEME"
+    },
+    "SERVICE_ACCOUNT": {
+      "description": "Your Astra Service Account Credentials",
+      "value": "REPLACEME"
+    }
+  }
 }
