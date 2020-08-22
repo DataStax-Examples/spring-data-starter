@@ -29,9 +29,10 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
    
 7. Once your Gitpod workspace has loaded, you'll be asked to paste your service account credentials in the Gitpod terminal at the bottom of the screen:
-   ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90801910-5e816c00-e2cb-11ea-874b-fb64ee7a26ae.png)
+![image](https://user-images.githubusercontent.com/3254549/90944321-e900c300-e3d2-11ea-9624-dae5f81b6a0a.png)
 
-8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
+8. When the app is finished building, click the 'Open Browser' button on the bottom right of the screen:
+![image](https://user-images.githubusercontent.com/3254549/90944371-249b8d00-e3d3-11ea-8305-b7d4fad9742c.png)
 
-9. You're ready to use this application! 
-   ![Swagger](doc/pics/spring-data-swagger-ui.png?raw=true)
+9. You're successfully build a Spring Boot Astra application!
+![image](https://user-images.githubusercontent.com/3254549/90944387-439a1f00-e3d3-11ea-9df4-e8a5580c62cd.png)
