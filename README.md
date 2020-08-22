@@ -17,7 +17,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 4. Go to the top and click add service account: 
    ![Screen Shot 2020-08-20 at 9 25 29 AM](https://user-images.githubusercontent.com/69874632/90801716-1cf0c100-e2cb-11ea-938b-85709cad8ce0.png)
 
-5. Then click the logo to copy your credentials. 
+5. Then, click the copy icon to copy your service credentials to your clipboard:
    ![Screen Shot 2020-08-20 at 9 25 50 AM](https://user-images.githubusercontent.com/69874632/90801796-3560db80-e2cb-11ea-8c1d-4387ca9809a4.png)
 
 6. Once you have copied your credentials, click to Open in Gitpod:
