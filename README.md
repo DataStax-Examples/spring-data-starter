@@ -20,11 +20,11 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 5. Then, click the copy icon to copy your service credentials to your clipboard:
    ![Screen Shot 2020-08-20 at 9 25 50 AM](https://user-images.githubusercontent.com/69874632/90801796-3560db80-e2cb-11ea-8c1d-4387ca9809a4.png)
 
-6. Once you have copied your credentials, click to Open in Gitpod:
+6. Once you have copied your credentials, click the 'Open in Gitpod' button below:
 
    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
    
-7. Once your gitpod workspace has loaded paste your service account credentials and enter in the bottom of the screen 
+7. Once your Gitpod workspace has loaded, paste your service account credentials in the Gitpod terminal at the bottom of the screen:
    ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90801910-5e816c00-e2cb-11ea-874b-fb64ee7a26ae.png)
 
 8. After entering, open this link in your browser: http://localhost:8081/swagger-ui/
