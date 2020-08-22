@@ -9,7 +9,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
    
 2. Once your Astra database is created, click 'Your Databases', then 'Manage Organizations' on the top navigation: 
-   ![Screen Shot 2020-08-20 at 9 24 13 AM](https://user-images.githubusercontent.com/69874632/90799837-a5ba2d80-e2c8-11ea-8104-35ef6c0723ef.png)
+![image](https://user-images.githubusercontent.com/3254549/90944069-9f63a880-e3d1-11ea-834a-968ffe69e37b.png)
   
   
 3. On the right side of your organization, click the elipsis (...) then 'Manage Organizations': 
