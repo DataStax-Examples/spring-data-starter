@@ -2,6 +2,8 @@
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
+
 ## Getting Started Paths:
 1. [Run the app on Gitpod](#running-on-gitpod)
 
