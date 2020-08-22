@@ -22,6 +22,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 ![image](https://user-images.githubusercontent.com/3254549/90944221-3c264600-e3d2-11ea-9d04-46915f1c3731.png)
 
 6. Once you have copied your credentials to your clipboard, click the 'Open in Gitpod' button below:
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
    
 7. Once your Gitpod workspace has loaded, paste your service account credentials in the Gitpod terminal at the bottom of the screen:
