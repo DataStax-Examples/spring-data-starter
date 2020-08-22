@@ -1,0 +1,7 @@
+{
+  "name": "Spring Data Starter",
+  "description": "A sample Spring Data Cassandra REST APIx",
+  "repository": "https://github.com/DataStax-Examples/spring-data-starte",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["spring", "cassandra", "astra"]
+}
