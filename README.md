@@ -5,7 +5,8 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 ## Running in Gitpod
 
 1. Create a [DataStax Astra](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) account and free-tier Cassandra Database: 
-   ![88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6](https://user-images.githubusercontent.com/69874632/90799424-0f860780-e2c8-11ea-962e-ad43ebafc085.png)
+![image](https://user-images.githubusercontent.com/3254549/90944037-75aa8180-e3d1-11ea-9b17-91929d55bc07.png)
+
    
 2. Once your Astra database is created, click 'Your Databases', then 'Manage Organizations' on the top navigation: 
    ![Screen Shot 2020-08-20 at 9 24 13 AM](https://user-images.githubusercontent.com/69874632/90799837-a5ba2d80-e2c8-11ea-8104-35ef6c0723ef.png)
