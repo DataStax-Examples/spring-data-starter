@@ -15,15 +15,14 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 3. On the right side of your organization, click the elipsis (...) then 'Manage Organizations': 
 ![image](https://user-images.githubusercontent.com/3254549/90944096-c02bfe00-e3d1-11ea-9513-b3362cdfd77a.png)
 
-4. Go to the top and click add service account: 
-   ![Screen Shot 2020-08-20 at 9 25 29 AM](https://user-images.githubusercontent.com/69874632/90801716-1cf0c100-e2cb-11ea-938b-85709cad8ce0.png)
+4. Click the action menu, then select 'Add Service Account':
+![image](https://user-images.githubusercontent.com/3254549/90944155-05503000-e3d2-11ea-9d2a-8c376b027358.png)
 
-5. Then, click the copy icon to copy your service credentials to your clipboard:
-   ![Screen Shot 2020-08-20 at 9 25 50 AM](https://user-images.githubusercontent.com/69874632/90801796-3560db80-e2cb-11ea-8c1d-4387ca9809a4.png)
+5. Click the copy icon to copy your Astra service account credentials to your clipboard:
+![image](https://user-images.githubusercontent.com/3254549/90944221-3c264600-e3d2-11ea-9d04-46915f1c3731.png)
 
-6. Once you have copied your credentials, click the 'Open in Gitpod' button below:
-
-   [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
+6. Once you have copied your credentials to your clipboard, click the 'Open in Gitpod' button below:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
    
 7. Once your Gitpod workspace has loaded, paste your service account credentials in the Gitpod terminal at the bottom of the screen:
    ![Screen Shot 2020-08-20 at 9 28 42 AM](https://user-images.githubusercontent.com/69874632/90801910-5e816c00-e2cb-11ea-874b-fb64ee7a26ae.png)
