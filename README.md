@@ -13,8 +13,9 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
   
   
 3. On the right side of your organization, click the elipsis (...) then 'Manage Organizations': 
-   ![Screen Shot 2020-08-20 at 9 25 03 AM](https://user-images.githubusercontent.com/69874632/90801603-faf73e80-e2ca-11ea-8bab-dc82baf0c4ae.png)
-   
+![image](https://user-images.githubusercontent.com/3254549/90944096-c02bfe00-e3d1-11ea-9513-b3362cdfd77a.png)
+
+
 4. Go to the top and click add service account: 
    ![Screen Shot 2020-08-20 at 9 25 29 AM](https://user-images.githubusercontent.com/69874632/90801716-1cf0c100-e2cb-11ea-938b-85709cad8ce0.png)
 
