@@ -2,7 +2,7 @@
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datastax-examples/spring-data-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2QjoULs)
 
 ## Getting Started Paths:
 1. [Run the app on Gitpod](#running-on-gitpod)
@@ -28,7 +28,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 6. Once you have copied your credentials to your clipboard, click the 'Open in Gitpod' button below:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datastax-examples/spring-data-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2QjoULs)
    
 7. Once your Gitpod workspace has loaded, you'll be asked to paste your service account credentials in the Gitpod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/90944321-e900c300-e3d2-11ea-9624-dae5f81b6a0a.png)
