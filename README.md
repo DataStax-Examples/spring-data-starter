@@ -6,6 +6,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 ## Getting Started Paths:
 1. [Run the app on Gitpod](#running-on-gitpod)
+2. [Run the app on Astra for GCP](#running-on-gcp)
 
 ### Running on Gitpod
 
@@ -38,3 +39,18 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 9. You've successfully build a Spring Boot Astra application!
 ![image](https://user-images.githubusercontent.com/3254549/90944387-439a1f00-e3d3-11ea-9df4-e8a5580c62cd.png)
+
+### Running on GCP
+
+1. Navigate to the [Astra for GCP landing page](https://console.cloud.google.com/marketplace/product/endpoints/prod.cloud.datastax.com):
+![image](https://user-images.githubusercontent.com/3254549/91092366-c1953a80-e60c-11ea-9228-e7fcf204303f.png)
+
+2. If you haven't done so already, create a GCP [billing account here](https://console.cloud.google.com/billing/linkedaccount). Once you've created a billing account, click 'Purchase':
+![image](https://user-images.githubusercontent.com/3254549/91092716-4a13db00-e60d-11ea-8f7c-b82eef3120ce.png)
+
+3. Scroll down the page, and select the free plan:
+![image](https://user-images.githubusercontent.com/3254549/91092831-73346b80-e60d-11ea-9abd-e2840312582d.png)
+
+4. Then accept the terms and click 'Subscribe':
+![image](https://user-images.githubusercontent.com/3254549/91092903-8810ff00-e60d-11ea-877d-bc11388759e1.png)
+
