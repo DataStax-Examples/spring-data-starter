@@ -36,5 +36,5 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 8. When the app is finished building, click the 'Open Browser' button on the bottom right of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/90944371-249b8d00-e3d3-11ea-8305-b7d4fad9742c.png)
 
-9. You've successfully build a Spring Boot Astra application!
+9. You've successfully build a Spring Data Cassandra application!
 ![image](https://user-images.githubusercontent.com/3254549/90944387-439a1f00-e3d3-11ea-9df4-e8a5580c62cd.png)
