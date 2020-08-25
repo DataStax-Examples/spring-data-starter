@@ -54,3 +54,15 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 4. Then accept the terms and click 'Subscribe':
 ![image](https://user-images.githubusercontent.com/3254549/91092903-8810ff00-e60d-11ea-877d-bc11388759e1.png)
 
+5. Navigate back to the [product details page](https://console.cloud.google.com/marketplace/product/endpoints/prod.cloud.datastax.com), then click 'Enable':
+![image](https://user-images.githubusercontent.com/3254549/91223854-194ba880-e6d6-11ea-8cf9-3529fc79cbdc.png)
+
+6. Review the terms, then click 'Agree':
+![image](https://user-images.githubusercontent.com/3254549/91223956-3b452b00-e6d6-11ea-8206-0a2142df9839.png)
+
+7. Create your first Astra database by clicking 'Create Database':
+![image](https://user-images.githubusercontent.com/3254549/91224034-54e67280-e6d6-11ea-961f-73b929717817.png)
+
+8. Set your database name, keyspace name, region, username and password, then click 'Create':
+![image](https://user-images.githubusercontent.com/3254549/91224114-77788b80-e6d6-11ea-99f2-c9249a319d6f.png)
+
