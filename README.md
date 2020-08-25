@@ -66,3 +66,5 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 9. Once your database has finished initializing, click 'Launch DataStax Console':
 ![image](https://user-images.githubusercontent.com/3254549/91226614-21a5e280-e6da-11ea-8bfd-bff2d2812bf5.png)
+
+10. Congrats! You've created an Astra database, launch the app using the instruction for [Getting Started path #1](#running-on-gitpod).
