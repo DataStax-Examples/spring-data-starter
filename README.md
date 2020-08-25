@@ -64,3 +64,5 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 8. Set your database name, keyspace name, region, username and password, then click 'Create':
 ![image](https://user-images.githubusercontent.com/3254549/91224114-77788b80-e6d6-11ea-99f2-c9249a319d6f.png)
 
+9. Once your database has finished initializing, click 'Launch DataStax Console':
+![image](https://user-images.githubusercontent.com/3254549/91226614-21a5e280-e6da-11ea-8bfd-bff2d2812bf5.png)
