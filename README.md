@@ -2,15 +2,13 @@
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2QjoULs)
-
 ## Getting Started Paths:
 1. [Run the app on Gitpod](#running-on-gitpod)
 2. [Run the app on Astra for GCP](#running-on-gcp)
 
 ### Running on Gitpod
 
-1. Create a [DataStax Astra](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) account and free-tier Cassandra Database: 
+1. Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) 🚀
 ![image](https://user-images.githubusercontent.com/3254549/90944037-75aa8180-e3d1-11ea-9b17-91929d55bc07.png)
 
    
@@ -37,7 +35,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 8. When the app is finished building, click the 'Open Browser' button on the bottom right of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/90944371-249b8d00-e3d3-11ea-8305-b7d4fad9742c.png)
 
-9. You've successfully build a Spring Boot Astra application!
+9. You've successfully build a Spring Data Cassandra application!
 ![image](https://user-images.githubusercontent.com/3254549/90944387-439a1f00-e3d3-11ea-9df4-e8a5580c62cd.png)
 
 ### Running on GCP
