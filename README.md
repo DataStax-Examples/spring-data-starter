@@ -1,6 +1,10 @@
 # Spring Data Cassandra REST API
+*10 minutes, Beginner*
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
+
+![image](https://monosnap.com/image/PQXQsYcisYTHwSzkOTBwkRQoD3HkGn)
+
 
 ## Getting Started Paths:
 1. [Run the app on Gitpod](#running-on-gitpod)
