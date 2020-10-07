@@ -21,11 +21,11 @@ This application uses **Spring Data Cassandra** and **DataStax Astra** to build 
 
 ![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/choose-a-plan-1000-annotated.png?raw=true)
 
-- Define a name and credentials
+- Define a **database name**, **keyspace name** and **credentials**
 
 ![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/create-and-configure-annotated-1000.png?raw=true)
 
-- The DB will be ready 💥💥💥 when the status will move from *`Pending`* to **`Active`**
+- Database will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥 
 
 ![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/dashboard-withdb-1000.png?raw=true)
 .
@@ -34,15 +34,15 @@ This application uses **Spring Data Cassandra** and **DataStax Astra** to build 
 
 - Locate the combo `Organization: <Your email>` on the top navigation. On the right side of your organization, click the elipsis (...) then click your `<Your email>`.
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-combo-1000.png?raw=true)
+![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-combo-annotated.png?raw=true)
 
 - Scroll down to the bottom of the page and locate `Service Account` in `Security Settings`
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-home-1000.png?raw=true)
+![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-home-annotated.png?raw=true)
 
 - In the Security Setting tables, select `Copy Credentials` as shown below
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-copycredentials-1000.png?raw=true)
+![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-copycredentials-annotated.png?raw=true)
 
 ### ✅ C - Running on Gitpod
 
