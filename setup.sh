@@ -1,7 +1,7 @@
 echo "🚀 Go to https://astra.datastax.com/org/?create_service_account
 If you have not created a service account for your org click Actions -> Add Service Account. Then, click the copy icon and paste your service account credentials here: "
-  read -r SERVICE_ACCOUNT
-  export SERVICE_ACCOUNT="${SERVICE_ACCOUNT}"
+read -r SERVICE_ACCOUNT
+export SERVICE_ACCOUNT='${SERVICE_ACCOUNT}'
 
 echo "Getting your Astra DevOps API token..."
 DEVOPS_TOKEN=$(curl -s --request POST \
@@ -46,11 +46,10 @@ gp env ASTRA_DB_ID=$(echo ${FIRST_DB_ID} | sed "s/\"//g") &>/dev/null
 export ASTRA_DB_REGION=$(echo ${FIRST_DB_REGION} | sed "s/\"//g")
 gp env ASTRA_DB_REGION=$(echo ${FIRST_DB_REGION} | sed "s/\"//g") &>/dev/null
 
-if [[ -z "$ASTRA_DB_PASSWORD" ]]; then
-  echo "What is your Astra DB password? 🔒"
-  read -s ASTRA_DB_PASSWORD
-  export ASTRA_DB_PASSWORD=${ASTRA_DB_PASSWORD}
-  gp env ASTRA_DB_PASSWORD=${ASTRA_DB_PASSWORD} &>/dev/null
-fi
+
+echo "What is your Astra DB password? 🔒"
+read -s ASTRA_DB_PASSWORD
+export ASTRA_DB_PASSWORD=${ASTRA_DB_PASSWORD}
+gp env ASTRA_DB_PASSWORD=${ASTRA_DB_PASSWORD} &>/dev/null
 
 echo "You're all set 👌"
