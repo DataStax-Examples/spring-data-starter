@@ -1,7 +1,7 @@
 echo "🚀 Go to https://astra.datastax.com/org/?create_service_account
 If you have not created a service account for your org click Actions -> Add Service Account. Then, click the copy icon and paste your service account credentials here: "
 read -r SERVICE_ACCOUNT
-export SERVICE_ACCOUNT='${SERVICE_ACCOUNT}'
+export SERVICE_ACCOUNT="${SERVICE_ACCOUNT}"
 
 echo "Getting your Astra DevOps API token..."
 DEVOPS_TOKEN=$(curl -s --request POST \
