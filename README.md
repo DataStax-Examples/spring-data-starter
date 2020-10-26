@@ -9,7 +9,7 @@ This application uses **Spring Data Cassandra** and **DataStax Astra** to build 
 
 ### ✅ A - Get your Astra Instance
 
-- Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) 🚀
+- Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=spring-data-starter) 🚀
 
 ![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/login-1000.png?raw=true)
 
