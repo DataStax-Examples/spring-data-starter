@@ -48,7 +48,7 @@ This application uses **Spring Data Cassandra** and **DataStax Astra** to build 
 
 - Your credentials in the clipboard, click  `Open in Gitpod` button below:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2QjoULs)
+[![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2QjoULs)
 
 - Once your Gitpod workspace has loaded, you'll be asked to paste your service account credentials in the Gitpod terminal at the bottom of the screen:
 
