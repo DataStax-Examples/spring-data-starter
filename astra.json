@@ -1,0 +1,8 @@
+{
+ "name": "Spring Data Cassandra REST API",
+ "description": "This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.",
+ "duration": "10 minutes",
+ "skillLevel": "Beginner",
+ "gitpodUrl": "https://dtsx.io/2QjoULs",
+ "githubUrl": "https://github.com/DataStax-Examples/spring-data-starter"
+}
