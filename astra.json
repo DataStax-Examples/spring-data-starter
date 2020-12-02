@@ -4,5 +4,8 @@
  "duration": "10 minutes",
  "skillLevel": "Beginner",
  "gitpodUrl": "https://dtsx.io/2QjoULs",
- "githubUrl": "https://github.com/DataStax-Examples/spring-data-starter"
+ "githubUrl": "https://github.com/DataStax-Examples/spring-data-starter",
+ "tags": [{ "name": "java" }],
+ "category": "starters",
+ "priority": 1
 }
