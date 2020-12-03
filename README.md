@@ -1,7 +1,11 @@
+<!--- STARTEXCLUDE --->
+
 # Spring Data Cassandra REST API
 *10 minutes, Beginner*
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
+
+<!--- ENDEXCLUDE --->
 
 ![image](https://monosnap.com/image/PQXQsYcisYTHwSzkOTBwkRQoD3HkGn)
 
@@ -9,7 +13,9 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 ### ✅ A - Get your Astra Instance
 
+<!--- STARTEXCLUDE --->
 - Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=spring-data-starter) 🚀
+<!--- ENDEXCLUDE --->
 
 ![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/login-1000.png?raw=true)
 
