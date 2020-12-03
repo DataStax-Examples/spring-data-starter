@@ -21,38 +21,35 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 - On the home page. Locate the button **`Add Database`**
 
-![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/dashboard-add-database.png?raw=true)
+![Astra](https://user-images.githubusercontent.com/69874632/101092439-86d96180-356e-11eb-9a93-1e275ff5cd62.png)
 
 - Pick **free plan** and a **region** close to you, click configure.
 
-![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/choose-a-plan-1000-annotated.png?raw=true)
+<img width="1399" alt="Screen Shot 2020-12-03 at 2 13 02 PM" src="https://user-images.githubusercontent.com/69874632/101094736-b50c7080-3571-11eb-9b08-725c2b81ead0.png">
 
 - Define a **database name**, **keyspace name** and **credentials**
 
-![Astra](https://github.com/datastaxdevs/shared-assets/blob/master/astra/create-and-configure-annotated-1000.png?raw=true)
+<img width="1435" alt="Screen Shot 2020-12-03 at 1 33 16 PM" src="https://user-images.githubusercontent.com/69874632/101093499-b5a40780-356f-11eb-938e-4ba11fa7e1d3.png">
 
 - Database will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥 
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/dashboard-withdb-1000.png?raw=true)
+<img width="1438" alt="Screen Shot 2020-12-03 at 1 35 43 PM" src="https://user-images.githubusercontent.com/69874632/101093580-dc623e00-356f-11eb-8035-9d1835e49deb.png">
 .
 
 ### ✅ B - Copy your credentials
 
-- Locate the combo `Organization: <Your email>` on the top navigation. On the right side of your organization, click the elipsis (...) then click your `<Your email>`.
+- Locate the combo `Organization: <Your email>` on the top navigation. In the drop down menu, click your current organization.
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-combo-annotated.png?raw=true)
+![Group 4](https://user-images.githubusercontent.com/69874632/101093685-09165580-3570-11eb-9e8d-1579d7692ebd.png)
 
-- Scroll down to the bottom of the page and locate `Service Account` in `Security Settings`
+- Scroll down to the bottom of the page and locate `Service Account` in `Security Settings` and select `Copy Credentials` as shown below. 
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-home-annotated.png?raw=true)
+<img width="1439" alt="Screen Shot 2020-12-03 at 1 44 56 PM" src="https://user-images.githubusercontent.com/69874632/101093823-47137980-3570-11eb-9da7-04643adba7d3.png">
 
-- In the Security Setting tables, select `Copy Credentials` as shown below
-
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/organization-copycredentials-annotated.png?raw=true)
 
 ### ✅ C - Running on Gitpod
 
-- Your credentials in the clipboard, click  `Open in Gitpod` button below:
+- With your credentials in the clipboard, click  `Open in Gitpod` button below:
 
 [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2QjoULs)
 
@@ -65,3 +62,5 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 
 - You've successfully build a Spring Data Cassandra application!
 ![image](https://user-images.githubusercontent.com/3254549/90944387-439a1f00-e3d3-11ea-9df4-e8a5580c62cd.png)
+
+
