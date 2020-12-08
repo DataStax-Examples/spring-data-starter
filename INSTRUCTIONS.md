@@ -21,7 +21,7 @@ already have one:
 
 3. After your database is provisioned, head to the `Connect` screen and copy your connection 
 information (we'll need this later!):
-![image](https://user-images.githubusercontent.com/69874632/101203076-0292e700-361f-11eb-88ee-1f6356f4d7dc.png)
+![image](https://user-images.githubusercontent.com/69874632/101202697-797bb000-361e-11eb-8ded-6e9b1d94fcac.png)
 
 ### Github
 <!-- Enter your GITHUB_URL below -->
