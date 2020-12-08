@@ -14,4 +14,4 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 We're using Spring Data Cassandra and Datastax Astra to build a REST API that stores Products and Orders.
 
 ## Get Started
-To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/spring-data-starter/blob/master/INSTRUCTIONS.md](https://github.com/DataStax-Examples/spring-data-starter/blob/master/INSTRUCTIONS.md)
+To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/spring-data-starter/blob/master/INSTRUCTIONS.md](https://github.com/DataStax-Examples/spring-data-starter/blob/master/INSTRUCTIONS.md){:target="_blank"}
