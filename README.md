@@ -16,11 +16,10 @@ We're using Spring Data Cassandra and Datastax Astra to build a REST API that st
 ## Get Started
 To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/spring-data-starter](https://github.com/DataStax-Examples/spring-data-starter#prerequisites)
 
-<!--- Enter the repository name --->
+<!--- STARTEXCLUDE --->
 # Running Spring Data Cassandra REST API
 Follow the instructions below to get started.
 
-<!--- STARTEXCLUDE --->
 ## Prerequisites
 Let's do some initial setup.
 
