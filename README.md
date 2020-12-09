@@ -1,6 +1,6 @@
 <!--- STARTEXCLUDE --->
 # Spring Data Cassandra REST API
-*10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/spring-data-starter/blob/master/README.md#prerequisites)*
+*10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/spring-data-starter#prerequisites)*
 
 This application uses Spring Data Cassandra and DataStax Astra to build a REST API for a backend service that interacts with products and orders.
 <!--- ENDEXCLUDE --->
@@ -14,7 +14,7 @@ This application uses Spring Data Cassandra and DataStax Astra to build a REST A
 We're using Spring Data Cassandra and Datastax Astra to build a REST API that stores Products and Orders.
 
 ## Get Started
-To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/spring-data-starter/blob/master/README.md#prerequisites](https://github.com/DataStax-Examples/spring-data-starter/blob/master/README.md#prerequisites)
+To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/spring-data-starter](https://github.com/DataStax-Examples/spring-data-starter#prerequisites)
 
 <!--- Enter the repository name --->
 # Running Spring Data Cassandra REST API
