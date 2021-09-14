@@ -7,5 +7,6 @@
   "githubUrl": "https://github.com/DataStax-Examples/spring-data-starter",
   "tags": [{ "name": "java" }, { "name": "java driver" }],
   "category": "starters",
-  "priority": 1
+  "priority": 1,
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/spring-data-starter/master/hero.png"
 }
